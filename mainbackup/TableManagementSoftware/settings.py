@@ -120,7 +120,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = '/home/ubuntu/AWS-test/mainbackup/staticfiles'
 STATICFILES_DIRS = [
-    BASE_DIR / "static",  # Adjust path as per your project structure
+    BASE_DIR / "TMS"/"static",
 ]
 
 # Default primary key field type
